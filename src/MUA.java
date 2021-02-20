@@ -19,6 +19,13 @@ public class MUA {
         return Integer.parseInt(rc);
     }
 
+    /**
+     * Asks user for the necessary information to send an email
+     * Opens the socket and takes input from user while reading output from server
+     *
+     * @param args
+     * @throws IOException
+     */
     public static void main(String[] args) throws IOException {
         // Mail server
         String mailServer = "exmail.dickinson.edu";
